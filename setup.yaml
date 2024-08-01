@@ -2,4 +2,56 @@
 
 6)=> folder structure
 
-# add a dist folder to .gitignore
+docker
+|-Dockerfile
+logs
+|
+nginx
+|-http.conf
+|-https.conf
+public
+|
+script
+|
+scr
+|-config
+  |-config.ts
+|-constant
+  |-application.ts
+  |-responseMessage.ts
+|-controller
+  |-apiController.ts
+|-middleware
+  |-globalErrorHandler.ts
+|-model   
+|-router
+  |-apiRouter.ts
+|-service
+|-types
+|-util
+  |-errorObject.ts
+  |-httpError.ts
+  |-httpResponse.ts
+  |-quicker.ts
+|-view
+|-app.ts
+|-server.ts  <- entry file
+test
+|
+|
+.env.development
+|
+.env.example
+|
+.env.production
+|
+.gitignore
+|=node_modules
+|=dist
+|=.env.production
+|=.env.development
+ecosystem.config.js
+|
+nodemon.json
+|
+README.md
