@@ -66,3 +66,13 @@
 8)=> EsLint
 
 # npm install --save-dev eslint @eslint/js @types/eslint__js typescript typescript-eslint
+# |in package.json
+# script->
+    # "lint": "eslint .",
+    # "lint:fix": "eslint . --fix"
+
+
+  # "lint-staged":{
+  #   "*.ts":[
+  #     "npm run lint:fix"
+  #   ]
