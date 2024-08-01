@@ -61,3 +61,8 @@
 
 # npm install @commitlint/cli @commitlint/config-conventional -D
 # creating a commit-msg
+# creating a commit.config.ts
+
+8)=> EsLint
+
+# npm install --save-dev eslint @eslint/js @types/eslint__js typescript typescript-eslint
