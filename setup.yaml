@@ -76,3 +76,16 @@
   #   "*.ts":[
   #     "npm run lint:fix"
   #   ]
+
+9)=> prettier setup
+
+# npm install --save-dev --save-exact prettier
+# root  .pretiierrc
+
+# with eslint
+# npm install --save-dev eslint-config-prettier
+
+
+# writ in pckjson script
+    # "format:check": "prettier . --check",
+    # "format:fix": "prettier . --fix",
